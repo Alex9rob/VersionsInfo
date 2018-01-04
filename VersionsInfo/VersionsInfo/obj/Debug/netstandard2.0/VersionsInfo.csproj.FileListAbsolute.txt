@@ -1,0 +1,11 @@
+D:\Krow\projects\VersionsInfo\VersionsInfo\VersionsInfo\bin\Debug\netstandard2.0\VersionsInfo.deps.json
+D:\Krow\projects\VersionsInfo\VersionsInfo\VersionsInfo\bin\Debug\netstandard2.0\VersionsInfo.dll
+D:\Krow\projects\VersionsInfo\VersionsInfo\VersionsInfo\bin\Debug\netstandard2.0\VersionsInfo.pdb
+D:\Krow\projects\VersionsInfo\VersionsInfo\VersionsInfo\obj\Debug\netstandard2.0\VersionsInfo.csproj.CoreCompileInputs.cache
+D:\Krow\projects\VersionsInfo\VersionsInfo\VersionsInfo\obj\Debug\netstandard2.0\VersionsInfo.App.xaml.g.cs
+D:\Krow\projects\VersionsInfo\VersionsInfo\VersionsInfo\obj\Debug\netstandard2.0\VersionsInfo.Views.MainPage.xaml.g.cs
+D:\Krow\projects\VersionsInfo\VersionsInfo\VersionsInfo\obj\Debug\netstandard2.0\VersionsInfo.AssemblyInfoInputs.cache
+D:\Krow\projects\VersionsInfo\VersionsInfo\VersionsInfo\obj\Debug\netstandard2.0\VersionsInfo.AssemblyInfo.cs
+D:\Krow\projects\VersionsInfo\VersionsInfo\VersionsInfo\obj\Debug\netstandard2.0\VersionsInfo.dll
+D:\Krow\projects\VersionsInfo\VersionsInfo\VersionsInfo\obj\Debug\netstandard2.0\VersionsInfo.pdb
+D:\Krow\projects\VersionsInfo\VersionsInfo\VersionsInfo\obj\Debug\netstandard2.0\VersionsInfo.csprojResolveAssemblyReference.cache
