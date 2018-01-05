@@ -1,19 +1,27 @@
 ﻿using Prism.Commands;
-using Prism.Mvvm;
 using Prism.Navigation;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 namespace VersionsInfo.ViewModels
 {
     public class MainPageViewModel : ViewModelBase
     {
-        public MainPageViewModel(INavigationService navigationService) 
-            : base (navigationService)
+        //private INavigationService _navigationService;
+        public DelegateCommand NavigateToDetailPageCommand { get; private set; }
+
+        public MainPageViewModel(INavigationService navigationService) : base (navigationService)
         {
             Title = "Main Page";
+           // _navigationService = navigationService;
+           //NavigationService
+            NavigateToDetailPageCommand = new DelegateCommand(NavigateToDetailPage);
+        }
+
+        private void NavigateToDetailPage()
+        {
+            var p = new NavigationParameters();
+            var version = new Version("codeName", "versionNumber", "description");
+            p.Add("id", version);
+            NavigationService.NavigateAsync("DetailPage", p);
         }
     }
 }

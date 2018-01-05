@@ -30,7 +30,6 @@ namespace VersionsInfo
         {
             Container.RegisterTypeForNavigation<NavigationPage>();
             Container.RegisterTypeForNavigation<MainPage>();
-            Container.RegisterTypeForNavigation<PrismContentPage>();
             Container.RegisterTypeForNavigation<DetailPage>();
         }
     }

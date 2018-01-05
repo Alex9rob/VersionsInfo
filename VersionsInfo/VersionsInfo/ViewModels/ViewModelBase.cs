@@ -9,7 +9,7 @@ namespace VersionsInfo.ViewModels
 {
     public class ViewModelBase : BindableBase, INavigationAware, IDestructible
     {
-        protected INavigationService NavigationService { get; private set; }
+        protected INavigationService NavigationService { get; set; }
 
         private string _title;
         public string Title
