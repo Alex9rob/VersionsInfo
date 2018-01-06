@@ -16,6 +16,7 @@
             <DataTemplate>
                 <ImageCell ImageSource="{Binding ImagePath}"
                                Text="{Binding CodeName}"
+                               TextColor="Black"
                                Detail="{Binding VersionNumber}">
                 </ImageCell>
             </DataTemplate>

@@ -4,14 +4,28 @@
              xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
              prism:ViewModelLocator.AutowireViewModel="True"
              x:Class="VersionsInfo.Views.DetailPage"
-             Title="{Binding Version.CodeName}">>
+             Title="{Binding Version.CodeName}">
     <ScrollView>
-        <StackLayout HorizontalOptions="Center" VerticalOptions="Center"
+        <StackLayout HorizontalOptions="Center" 
+                     VerticalOptions="Start"
                      Padding="10">
             <Image Source="{Binding Version.ImagePath}"
                    HeightRequest="200"
                    WidthRequest="200">
             </Image>
+            <StackLayout Spacing="4" Orientation="Horizontal" HorizontalOptions="Start">
+                <Label FontSize="14" FontAttributes="Bold" TextColor="Black" Text="Version number:" HorizontalOptions="StartAndExpand" VerticalOptions="Center" />
+                <Label FontSize="14" TextColor="Black" Text="{Binding Version.VersionNumber}" HorizontalOptions="StartAndExpand" VerticalOptions="Center" />
+            </StackLayout>
+            <StackLayout Spacing="4" Orientation="Horizontal" HorizontalOptions="Start">
+                <Label FontSize="14" FontAttributes="Bold" TextColor="Black" Text="Release date:" HorizontalOptions="StartAndExpand" VerticalOptions="Center" />
+                <Label FontSize="14" TextColor="Black" Text="{Binding Version.Date}" HorizontalOptions="StartAndExpand" VerticalOptions="Center" />
+            </StackLayout>
+            <StackLayout Spacing="4" Orientation="Horizontal" HorizontalOptions="Start">
+                <Label FontSize="14" FontAttributes="Bold" TextColor="Black" Text="API level:" HorizontalOptions="StartAndExpand" VerticalOptions="Center" />
+                <Label FontSize="14" TextColor="Black" Text="{Binding Version.Api}" HorizontalOptions="StartAndExpand" VerticalOptions="Center" />
+            </StackLayout>
+
             <Label Text="{Binding Version.Description}"></Label>
         </StackLayout>
     </ScrollView>
