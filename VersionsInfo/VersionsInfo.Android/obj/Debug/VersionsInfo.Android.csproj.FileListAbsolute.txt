@@ -16,6 +16,7 @@ D:\Krow\projects\VersionsInfo\VersionsInfo\VersionsInfo.Android\obj\Debug\res\dr
 D:\Krow\projects\VersionsInfo\VersionsInfo\VersionsInfo.Android\obj\Debug\res\layout\tabbar.xml
 D:\Krow\projects\VersionsInfo\VersionsInfo\VersionsInfo.Android\obj\Debug\res\layout\toolbar.xml
 D:\Krow\projects\VersionsInfo\VersionsInfo\VersionsInfo.Android\obj\Debug\res\values\styles.xml
+D:\Krow\projects\VersionsInfo\VersionsInfo\VersionsInfo.Android\obj\Debug\res\drawable\cupcake.png
 D:\Krow\projects\VersionsInfo\VersionsInfo\VersionsInfo.Android\obj\Debug\R.cs.flag
 D:\Krow\projects\VersionsInfo\VersionsInfo\VersionsInfo.Android\obj\Debug\uploadflags.txt
 D:\Krow\projects\VersionsInfo\VersionsInfo\VersionsInfo.Android\bin\Debug\FormsViewGroup.dll.mdb

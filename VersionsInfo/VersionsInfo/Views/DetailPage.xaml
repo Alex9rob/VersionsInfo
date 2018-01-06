@@ -6,10 +6,13 @@
              x:Class="VersionsInfo.Views.DetailPage"
              Title="{Binding Version.CodeName}">>
     <ScrollView>
-        <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
-            <Label Text="{Binding Version.CodeName}"></Label>
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center"
+                     Padding="10">
+            <Image Source="{Binding Version.ImagePath}"
+                   HeightRequest="200"
+                   WidthRequest="200">
+            </Image>
             <Label Text="{Binding Version.Description}"></Label>
-
         </StackLayout>
     </ScrollView>
 </ContentPage>

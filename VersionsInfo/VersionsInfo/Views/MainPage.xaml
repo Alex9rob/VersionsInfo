@@ -14,7 +14,7 @@
 
         <ListView.ItemTemplate>
             <DataTemplate>
-                <ImageCell ImageSource="{Binding ImageUrl}"
+                <ImageCell ImageSource="{Binding ImagePath}"
                                Text="{Binding CodeName}"
                                Detail="{Binding VersionNumber}">
                 </ImageCell>

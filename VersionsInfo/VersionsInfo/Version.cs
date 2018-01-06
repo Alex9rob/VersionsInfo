@@ -7,7 +7,7 @@ namespace VersionsInfo
         public string CodeName { get; set; }
         public string VersionNumber { get; set; }
         public string Description { get; set; }
-        public ImageSource ImageUrl { get; set; }
+        public ImageSource ImagePath { get; set; }
 
         public Version(string versionNumber, string codeName, string description)
         {
