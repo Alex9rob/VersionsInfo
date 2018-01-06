@@ -1,6 +1,4 @@
-﻿using VersionsInfo.ViewModels;
-using VersionsInfo.Views;
-using Ninject;
+﻿using VersionsInfo.Views;
 using Prism.Ninject;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -31,6 +29,7 @@ namespace VersionsInfo
             Container.RegisterTypeForNavigation<NavigationPage>();
             Container.RegisterTypeForNavigation<MainPage>();
             Container.RegisterTypeForNavigation<DetailPage>();
+            Container.Bind<IService>().To<MockService>();
         }
     }
 }

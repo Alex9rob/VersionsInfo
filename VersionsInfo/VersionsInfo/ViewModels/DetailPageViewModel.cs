@@ -9,23 +9,22 @@ namespace VersionsInfo.ViewModels
 {
 	public class DetailPageViewModel : ViewModelBase
 	{
-	    private IService _service;
-	    public DetailPageViewModel(INavigationService navigationService) : base(navigationService)
-	    {
-	        //_service = service;
+	    private Version _version;
+	    public Version Version
+        {
+	        get { return _version; }
+	        set { SetProperty(ref _version, value); }
 	    }
-
-	    private void Button_OnClicked(object sender, EventArgs e)
+        public DetailPageViewModel(INavigationService navigationService) : base(navigationService)
 	    {
-
-	        //throw new NotImplementedException();
+           
 	    }
 
         public override void OnNavigatedTo(NavigationParameters parameters)
 	    {
-	        if (parameters.ContainsKey("id"))
+	        if (parameters.ContainsKey("data"))
 	        {
-	            var param = (Version) parameters["id"];
+	            Version = (Version) parameters["data"];
 	        }
 	    }
 	}
