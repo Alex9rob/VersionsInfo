@@ -7,13 +7,7 @@ namespace VersionsInfo.ViewModels
     public class MainPageViewModel : ViewModelBase
     {
         public DelegateCommand<Version> NavigateToDetailPageCommand { get; private set; }
-        public ObservableCollection<Version> Versions
-        {
-            get { return _versions; }
-            set { SetProperty(ref _versions, value); }
-        }
-        private ObservableCollection<Version> _versions;
-
+        public ObservableCollection<Version> Versions { get; set; }
         public MainPageViewModel(INavigationService navigationService, IService service) : base(navigationService)
         {
             Title = "Android Versions";
